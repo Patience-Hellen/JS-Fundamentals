@@ -1,0 +1,9 @@
+const args = process.argv.slice(2);
+
+if (args[0]] !== undefined && args !== undefined){
+  console.log(args[0] + " is " args[1]);
+} else if (args[1] === undefined){
+  console.log(args[0] + " is undefined");
+} else {
+  console.log("undefined is undefined");
+}
